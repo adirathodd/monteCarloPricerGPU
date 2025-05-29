@@ -41,8 +41,6 @@ A production-grade engine for pricing European options via Monte Carlo simulatio
    Measure throughput/latency, profile with Nsight, optimize grid/block sizes and memory usage, overlap compute and data transfer.
 5. **Phase 5 – Python Bindings & CLI**  
    Expose GPU pricer via pybind11, provide a command-line utility for parameter sweeps and batch pricing.
-6. **Phase 6 – Documentation & Demo**  
-   Finalize README and design write-ups, produce convergence and speedup plots, record a brief screencast walkthrough.
 
 ---
 
