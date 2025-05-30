@@ -11,6 +11,7 @@ def bs_price(S0, K, r, sigma, T):
     price = S0 * norm.cdf(d1) - K * np.exp(-r * T) * norm.cdf(d2)
     return price
 
+@profile
 def mc_price(S0, K, r, sigma, T, n_paths):
     """Monte Carlo price estimate for a European call option.
     Returns (price, standard_error).
